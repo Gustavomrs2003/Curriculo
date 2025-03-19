@@ -1,0 +1,84 @@
+.infoTudo{
+    
+    height: 470px;
+}
+
+.informacoes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .informacoes.active {
+    opacity: 1;
+  }
+  
+  .sumido{
+    opacity: 0;
+  }
+  .informacoes h1 {
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 100%;
+    position: absolute;
+    right: -150px; /* Começa fora da tela à direita */
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 1s ease-out;
+  }
+  
+  .active h1 {
+    opacity: 1;
+    animation: slide-out 1s ease-out forwards;
+  }
+  
+  /* Animação dos textos */
+  .textos {
+    padding-top: 7rem;
+    width:65%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    left: -350px; /* Começa fora da tela à esquerda */
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 1s ease-out;
+  }
+  
+  .textos p {
+    margin-bottom: 1rem;
+  }
+  
+  .active .textos {
+    opacity: 1;
+    animation: slide-in 1s ease-out forwards;
+  }
+  
+  /* Keyframes das animações */
+  @keyframes slide-in {
+    from {
+      left: -350px;
+    }
+    to {
+      left: 53%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @keyframes slide-out {
+    from {
+      right: -150px;
+    }
+    to {
+      right:27.5%;
+      transform: translateX(-50%) 
+    }
+  }

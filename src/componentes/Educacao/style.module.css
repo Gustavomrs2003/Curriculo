@@ -1,0 +1,52 @@
+.voltarfeedback {
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border: 0px;
+    z-index: 1;
+  }
+  .avancarfeedback {
+    position: relative;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: none;
+    border: 0px;
+    z-index: 1;
+  }
+
+.slide{
+    
+    margin-bottom: 10rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.slidePai{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+}
+.formacao{
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: Numans;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.formacaoDiv{
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  z-index: 0;
+}
+.formacaoDiv.active {
+  opacity: 1;
+}

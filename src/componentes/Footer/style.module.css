@@ -1,0 +1,48 @@
+.footer{
+    margin-top: 6rem;
+    height: 200px;
+    background-color: rgb(148, 230, 219);
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+    line-height: 100%;
+}
+.email a{
+    text-decoration: none;
+    color: inherit;
+}
+.numero{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+    gap:1.5rem;
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+}
+.rua{
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+
+}

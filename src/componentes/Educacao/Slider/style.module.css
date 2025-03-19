@@ -1,0 +1,45 @@
+.slide{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(148, 230, 219);
+    border-radius: 10px;
+    padding-top: 3rem;
+    min-height:430px;
+    z-index: -1;
+}
+.texto{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: "pre-line";
+}
+.texto h1{
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+     white-space: "pre-line";
+}
+.texto :nth-child(2){
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color:rgb(90, 89, 89);
+    text-align: center;
+}
+.texto :nth-child(3){
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color:rgb(90, 89, 89);
+}

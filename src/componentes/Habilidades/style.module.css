@@ -1,0 +1,27 @@
+.divPai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;;
+}
+.divPai.active {
+    opacity: 1;
+}
+
+.hab{
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 56px;
+    text-align: center;
+}
+.listas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5rem;
+}

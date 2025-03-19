@@ -1,0 +1,44 @@
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  }
+  
+  .experiencia.active {
+    opacity: 1;
+  }
+  
+  .experiencia h1 {
+    align-self: center;
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 100%;
+  }
+  
+  .experiencia h3 {
+    align-self: center;
+    font-family: Numans;
+    margin-bottom: 3rem;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+  }
+  
+  .experiencia ul {
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  
+  .experiencia ul li {
+    margin-left: 1.2rem;
+    list-style-type: initial;
+    margin-bottom: 1rem;
+  }
+  

@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    width: 300px;
+    background-color: rgb(148, 230, 219);
+    min-height: 400px;
+    transform: translateY(50px); /* Começa mais abaixo */
+    opacity: 0; /* Começa invisível */
+    border-radius: 10px;
+    gap: 3rem;
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.card.active {
+    opacity: 1;
+    transform: translateY(0); /* Volta à posição normal */
+}
+
+.card h1 {
+    font-family: Numans;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 5px;
+}
